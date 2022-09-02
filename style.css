@@ -1,0 +1,16 @@
+  background-color: rebeccapurple;
+  background-image: radial-gradient(circle at var(--radial-1, 100%) var(--radial-3, 0%),
+    hsl(var(--cyanHSL)), hsl(var(--cyanHSL) / 0%)),
+  radial-gradient(circle at var(--radial-4, 0%) var(--radial-2, 100%),
+    hsl(var(--pinkHSL)), hsl(var(--pinkHSL) / 0%));
+  }
+
+  div {
+    display: grid;
+    grid: 1fr / min-content 1fr min-content;
+  }
+
+  html {
+    block-size: 100%;
+    inline-size: 100%;
+  }
